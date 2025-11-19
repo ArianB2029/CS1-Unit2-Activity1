@@ -1,26 +1,25 @@
 .flexbox {
     display: flex;
-    border: 2px solid yellowgreen;
     padding: 20px;
 }
 
 .item {
-    border: 2px solid hotpink;
     padding: 20px;
 }
 
 #box1 {
     justify-content: space-evenly;
-    background: rgba(18, 18, 97, 0.752);
+    background: rgba(214, 255, 66, 0.752);
 }
 
 #box2 {
     justify-content: center;
+    background: rgb(249, 231, 249);
 }
 
 #box3 {
     justify-content: center;
-    background: rgb(235, 236, 241);
+    background: rgb(166, 174, 213);
 }
 
 #box4 {
@@ -28,5 +27,30 @@
 }
 
 #innerbox4 {
-    background: rgba(35, 35, 237, 0.584);
+    background: rgba(255, 172, 17, 0.804);
+    border: solid rgb(213, 120, 79) 5px;
+    border-radius: 10px
+}
+
+img {
+    border: solid black 3px;
+    border-radius: 10px;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background: rgb(206, 206, 248);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.pictext {
+    color: rgb(92, 166, 92);
 }
