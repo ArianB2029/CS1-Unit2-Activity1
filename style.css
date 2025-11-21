@@ -43,6 +43,8 @@ body {
 
 h2 {
     text-align: center;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 button {
@@ -53,4 +55,8 @@ button {
 
 .pictext {
     color: rgb(92, 166, 92);
+}
+
+#pumpkin {
+    font-size: 20px;
 }
